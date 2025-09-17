@@ -25,6 +25,7 @@ namespace WASolarSystem.ViewModel
         //to hold our generated viewmodels, as to not new them every time.
         private List<BaseViewModel> _viewModelList;
 
+        //i am making some comments in this branch
         public MainWindowViewModel()
         {
             CurrentViewModel = new SolarSystemViewModel();
