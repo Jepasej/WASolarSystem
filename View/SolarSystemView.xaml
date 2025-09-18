@@ -7,6 +7,7 @@
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
     <Grid>
-        <TextBlock Text="This is the SolarSystemView" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <ContentControl
+            Content="{Binding SystemCanvas}"/>
     </Grid>
 </UserControl>
