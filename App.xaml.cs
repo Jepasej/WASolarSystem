@@ -12,6 +12,9 @@ namespace WASolarSystem
     /// </summary>
     public partial class App : Application
     {
+        /// <summary>
+        /// Handles application startup logic, initializing the main window and its data context.
+        /// </summary>
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
